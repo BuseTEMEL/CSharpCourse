@@ -7,7 +7,7 @@ namespace AbstractClasses
 // abstractlarla hem tamamlanmış hem tamamalanmamış metodlar yapabiliriz.
 // Abstract sınıfları new leyemeyiz.
 // Bir class sadece bir Abstract class tan inherite edilebilir. Ama birden fazla Interface le implemente edilebilir.
-// Abstract class lar başka  bir class veya başka bir abstract sınıfla implemente edilemezler.
+// Abstract class lar başka  bir class veya başka bir abstract sınıfla implemente edilemezler..
 {
     class Program
     {
