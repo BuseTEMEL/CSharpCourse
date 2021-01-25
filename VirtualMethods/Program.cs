@@ -8,6 +8,7 @@ namespace VirtualMethods
     {
         static void Main(string[] args)
         {
+            
             SqlServer sqlServer = new SqlServer();
             sqlServer.Add();
             MySqlServer mySqlServer = new MySqlServer();

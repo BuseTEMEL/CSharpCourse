@@ -8,6 +8,7 @@ namespace AbstractClasses
 // Abstract sınıfları new leyemeyiz.
 // Bir class sadece bir Abstract class tan inherite edilebilir. Ama birden fazla Interface le implemente edilebilir.
 // Abstract class lar başka  bir class veya başka bir abstract sınıfla implemente edilemezler..
+//is-a ilişkilerinde kullanılır.
 {
     class Program
     {
@@ -21,13 +22,16 @@ namespace AbstractClasses
             database1.Add();
             database1.Delete();
 
+            
+
             Console.ReadLine();
         }
     }
 
-    abstract class Database
+    
+    abstract class Database 
     {
-        public void Add()
+        public virtual void Add()
         {
             Console.WriteLine("Added by default");
         }
@@ -69,16 +73,6 @@ namespace AbstractClasses
         }
     }
 
-    interface Buse
-    {
-        void Ozkan();
-    }
-
-    class Ask : Buse
-    {
-        public void Ozkan()
-        {
-            Console.WriteLine("Seni çok seviyorum!");
-        }
-    }
+   
+    
 }
